@@ -1,0 +1,33 @@
+
+// This maps error constants with error messages.
+module.exports = {
+    NOT_FOUND: `User not found`,
+    UNKNOWN_ERROR: `Database error is occur or something went wrong`,
+    GETTING_DATA: `Error while getting data`,
+    STORING_DATA: `Error while storing data`,
+    REMOVING_DATA: `Error while removing data`,
+    BAD_REQUEST: `Bad request`,
+    UPDATE_DATA: `Error while updating data`,
+    INCOMPLETE_DATA: `Incomplete data error`,
+    INVALID_APIKEY: `The provided api key is invalid`,
+    NO_TOKEN: `No token is provided`,
+    INVALID_TOKEN: `Your session expried. Please login again`,
+    INVALID_USER: `User not found`,
+    NOT_ACTIVE_USER: `This user is not active any more`,
+    UNAUTHORIZED: `User is unauthorized`,
+    INVALID_EMAIL: `Invalid Email`,
+    INVALID_REQUEST: `Invalid Request`,
+    USER_ALREADY_EXIST: `User already exist`,
+    PASSWORD_WRONG: `Password wrong. Please enter correct password`,
+    USER_STORED_SUCCESS: `User stored successfully`,
+    ERROR_WHILE_LOGIN: `Error occured while login`,
+    USER_LOGGED_IN_SUCCESS: `User logged in successfully`,
+    EMAIL_ALREADY_EXIST: `Email ID already exist`,
+    REGISTRATION_FIELDS_MISSING: `User registration field missing`,
+    INVALID_EMAIL_ADDRESS: `Invalid email Id`,
+    PASSWORD_DOES_NOT_MATCH: `Password does not match`,
+    LOGIN_FAILED: `Login failed`,
+    EMPTY_PASSWORD: `Empty password`,
+    UNABLE_TO_UPDATE_USER: `Unable to update User data` ,
+    FETCHING_ISSUE: `Error while fetching user data`
+};

@@ -1,0 +1,38 @@
+{
+  "name": "simform_apis",
+  "version": "1.0.0",
+  "description": "node api",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Shridhar Bhande",
+  "license": "ISC",
+  "dependencies": {
+    "apns": "^0.1.0",
+    "async": "^2.1.2",
+    "base-64": "^0.1.0",
+    "bcryptjs": "^2.3.0",
+    "bluebird": "^3.3.5",
+    "body-parser": "^1.15.1",
+    "change-case": "^3.0.0",
+    "cors": "^2.8.0",
+    "cron": "^1.1.1",
+    "crypto": "0.0.3",
+    "ejs": "^2.5.7",
+    "eslint": "^3.18.0",
+    "express": "^4.13.4",
+    "express-validator": "^2.20.4",
+    "jsonwebtoken": "^7.1.9",
+    "mongodb": "^2.1.18",
+    "mongoose": "4.7.0",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.11.0",
+    "passport": "^0.5.0",
+    "passport-local": "^1.0.0",
+    "request": "^2.74.0",
+    "require-dir": "^1.2.0",
+    "validate.js": "^0.10.0",
+    "validator": "^6.2.0"
+  }
+}
