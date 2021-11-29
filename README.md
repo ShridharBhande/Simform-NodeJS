@@ -2,8 +2,10 @@ This a nodejs-express-mongodb application. Every MEAN Start Up project should fo
 some if the basic standards of Node, APIs and Coding. Give it a try.
 
 
-Node Version: 14.18
-MongoDB shell version v5.0.3
+- Node Version: 14.18
+- MongoDB shell version v5.0.3
+
+- Database Dump: Added to simform-db folder
 
 
 Pilot Commit: Created a MEAN Node API stack to get started with. Also have the ability to log all the API call and its response for debugging purposes. Please
